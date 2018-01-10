@@ -1,0 +1,921 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="Haerms@47.93.252.164">
+  <database-model serializer="dbm" rdbms="MSSQL" format-version="4.7">
+    <root id="1">
+      <ServerType>standalone</ServerType>
+    </root>
+    <database id="2" parent="1" name="Haerms">
+      <ObjectId>5</ObjectId>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="3" parent="1" name="master">
+      <ObjectId>1</ObjectId>
+    </database>
+    <database id="4" parent="1" name="tempdb">
+      <ObjectId>2</ObjectId>
+    </database>
+    <database id="5" parent="1" name="model">
+      <ObjectId>3</ObjectId>
+    </database>
+    <database id="6" parent="1" name="msdb">
+      <ObjectId>4</ObjectId>
+    </database>
+    <database id="7" parent="1" name="lwc">
+      <ObjectId>6</ObjectId>
+    </database>
+    <database id="8" parent="1" name="Northwind">
+      <ObjectId>7</ObjectId>
+    </database>
+    <schema id="9" parent="2" name="dbo">
+      <ObjectId>1</ObjectId>
+      <IntrospectionTimestamp>2018-01-11.02:01:04.780</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="10" parent="2" name="guest">
+      <ObjectId>2</ObjectId>
+    </schema>
+    <schema id="11" parent="2" name="INFORMATION_SCHEMA">
+      <ObjectId>3</ObjectId>
+    </schema>
+    <schema id="12" parent="2" name="sys">
+      <ObjectId>4</ObjectId>
+    </schema>
+    <schema id="13" parent="2" name="db_owner">
+      <ObjectId>16384</ObjectId>
+    </schema>
+    <schema id="14" parent="2" name="db_accessadmin">
+      <ObjectId>16385</ObjectId>
+    </schema>
+    <schema id="15" parent="2" name="db_securityadmin">
+      <ObjectId>16386</ObjectId>
+    </schema>
+    <schema id="16" parent="2" name="db_ddladmin">
+      <ObjectId>16387</ObjectId>
+    </schema>
+    <schema id="17" parent="2" name="db_backupoperator">
+      <ObjectId>16389</ObjectId>
+    </schema>
+    <schema id="18" parent="2" name="db_datareader">
+      <ObjectId>16390</ObjectId>
+    </schema>
+    <schema id="19" parent="2" name="db_datawriter">
+      <ObjectId>16391</ObjectId>
+    </schema>
+    <schema id="20" parent="2" name="db_denydatareader">
+      <ObjectId>16392</ObjectId>
+    </schema>
+    <schema id="21" parent="2" name="db_denydatawriter">
+      <ObjectId>16393</ObjectId>
+    </schema>
+    <table id="22" parent="9" name="Admin">
+      <ObjectId>1845581613</ObjectId>
+      <CreatedTimestamp>2017-12-12.06:31:38.250</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:31:38.250</ModifiedTimestamp>
+    </table>
+    <table id="23" parent="9" name="Class">
+      <ObjectId>1925581898</ObjectId>
+      <CreatedTimestamp>2017-12-12.06:39:40.820</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:00:52.663</ModifiedTimestamp>
+    </table>
+    <table id="24" parent="9" name="Course">
+      <ObjectId>2053582354</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:00:51.913</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.01:38:54.950</ModifiedTimestamp>
+    </table>
+    <table id="25" parent="9" name="CourseAttachment">
+      <ObjectId>290100074</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:28:53.337</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-14.19:25:42.950</ModifiedTimestamp>
+    </table>
+    <table id="26" parent="9" name="CourseExperiment">
+      <ObjectId>226099846</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:28:21.680</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-16.01:35:41.703</ModifiedTimestamp>
+    </table>
+    <table id="27" parent="9" name="CourseHomework">
+      <ObjectId>658101385</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:34:25.180</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:14:53.027</ModifiedTimestamp>
+    </table>
+    <table id="28" parent="9" name="CourseSelection">
+      <ObjectId>750625717</ObjectId>
+      <CreatedTimestamp>2017-12-19.01:38:54.933</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.01:38:54.933</ModifiedTimestamp>
+    </table>
+    <table id="29" parent="9" name="Department">
+      <ObjectId>1957582012</ObjectId>
+      <CreatedTimestamp>2017-12-12.06:41:34.960</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.16:48:42.153</ModifiedTimestamp>
+    </table>
+    <table id="30" parent="9" name="Experiment">
+      <ObjectId>478624748</ObjectId>
+      <CreatedTimestamp>2017-12-15.09:37:33.570</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:37:33.570</ModifiedTimestamp>
+    </table>
+    <table id="31" parent="9" name="Homework">
+      <ObjectId>1298103665</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:45:09.207</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:14:53.027</ModifiedTimestamp>
+    </table>
+    <table id="32" parent="9" name="Score">
+      <ObjectId>2117582582</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:07:04.387</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:16:18.040</ModifiedTimestamp>
+    </table>
+    <table id="33" parent="9" name="Student">
+      <ObjectId>2005582183</ObjectId>
+      <CreatedTimestamp>2017-12-12.06:55:54.457</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.01:38:54.950</ModifiedTimestamp>
+    </table>
+    <table id="34" parent="9" name="Teacher">
+      <ObjectId>1877581727</ObjectId>
+      <CreatedTimestamp>2017-12-12.06:36:25.473</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-31.20:50:29.763</ModifiedTimestamp>
+    </table>
+    <column id="35" parent="22" name="AdminId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="36" parent="22" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="22" name="JobNumber">
+      <Position>3</Position>
+      <DataType>nchar(15)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="38" parent="22" name="Password">
+      <Position>4</Position>
+      <DataType>char(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="39" parent="22" name="PK__Admin__719FE488A84987E8">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>AdminId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="22" name="PK__Admin__719FE488A84987E8">
+      <ObjectId>1861581670</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.06:31:38.250</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:31:38.250</ModifiedTimestamp>
+      <ColNames>AdminId</ColNames>
+      <UnderlyingIndexName>PK__Admin__719FE488A84987E8</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="23" name="ClassId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="23" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(12)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="43" parent="23" name="Grade">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="44" parent="23" name="DepartmentId">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="45" parent="23" name="ClassSize">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <index id="46" parent="23" name="PK__Class__CB1927C0A0C3B56F">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ClassId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="47" parent="23" name="PK__Class__CB1927C0A0C3B56F">
+      <ObjectId>1941581955</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.06:39:40.820</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:39:40.820</ModifiedTimestamp>
+      <ColNames>ClassId</ColNames>
+      <UnderlyingIndexName>PK__Class__CB1927C0A0C3B56F</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="48" parent="23" name="FK_Class_Department">
+      <ObjectId>1989582126</ObjectId>
+      <CreatedTimestamp>2017-12-12.06:48:52.903</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:48:53.323</ModifiedTimestamp>
+      <ColNames>DepartmentId</ColNames>
+      <RefTableId>1957582012</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Department</RefTableName>
+      <RefKeyName>PK__Departme__B2079BED16D05FBB</RefKeyName>
+      <RefColNames>DepartmentId</RefColNames>
+    </foreign-key>
+    <column id="49" parent="24" name="CourseId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="50" parent="24" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="51" parent="24" name="ShortIntroduction">
+      <Position>3</Position>
+      <DataType>nvarchar(500)|0</DataType>
+    </column>
+    <column id="52" parent="24" name="Description">
+      <Position>4</Position>
+      <DataType>nvarchar(max)|0</DataType>
+    </column>
+    <column id="53" parent="24" name="BeginDate">
+      <Position>5</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="54" parent="24" name="EndDate">
+      <Position>6</Position>
+      <DataType>date|0</DataType>
+    </column>
+    <column id="55" parent="24" name="TeacherId">
+      <Position>7</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="56" parent="24" name="ClassId">
+      <Position>8</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="57" parent="24" name="SchoolYear">
+      <Position>9</Position>
+      <DataType>char(9)|0</DataType>
+    </column>
+    <column id="58" parent="24" name="Semester">
+      <Position>10</Position>
+      <DataType>char(1)|0</DataType>
+    </column>
+    <column id="59" parent="24" name="IntroImage">
+      <Position>11</Position>
+      <DefaultExpression>&apos;/Images/Course/default_img.jpg&apos;</DefaultExpression>
+      <DataType>varchar(100)|0</DataType>
+    </column>
+    <column id="60" parent="24" name="TheoryClassHour">
+      <Position>12</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="61" parent="24" name="ExperimentClassHour">
+      <Position>13</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <index id="62" parent="24" name="PK__Course__C92D71A70B79BFED">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CourseId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="63" parent="24" name="PK__Course__C92D71A70B79BFED">
+      <ObjectId>2069582411</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.07:00:51.913</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:00:51.913</ModifiedTimestamp>
+      <ColNames>CourseId</ColNames>
+      <UnderlyingIndexName>PK__Course__C92D71A70B79BFED</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="64" parent="24" name="FK_Course_Teacher">
+      <ObjectId>2085582468</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:00:52.070</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:00:52.663</ModifiedTimestamp>
+      <ColNames>TeacherId</ColNames>
+      <RefTableId>1877581727</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Teacher</RefTableName>
+      <RefKeyName>PK__Teacher__EDF25964F0E37338</RefKeyName>
+      <RefColNames>TeacherId</RefColNames>
+    </foreign-key>
+    <foreign-key id="65" parent="24" name="FK_Course_Class">
+      <ObjectId>2101582525</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:00:52.210</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:00:52.663</ModifiedTimestamp>
+      <ColNames>ClassId</ColNames>
+      <RefTableId>1925581898</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Class</RefTableName>
+      <RefKeyName>PK__Class__CB1927C0A0C3B56F</RefKeyName>
+      <RefColNames>ClassId</RefColNames>
+    </foreign-key>
+    <column id="66" parent="25" name="AttachmentId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="67" parent="25" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="68" parent="25" name="Path">
+      <Position>3</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="69" parent="25" name="CourseId">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="70" parent="25" name="IssuedTime">
+      <Position>5</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <index id="71" parent="25" name="PK__CourseAt__442C64BECE26D68C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>AttachmentId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="72" parent="25" name="PK__CourseAt__442C64BECE26D68C">
+      <ObjectId>306100131</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.07:28:53.337</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:28:53.337</ModifiedTimestamp>
+      <ColNames>AttachmentId</ColNames>
+      <UnderlyingIndexName>PK__CourseAt__442C64BECE26D68C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="73" parent="25" name="FK_CourseAttachment_Course">
+      <ObjectId>338100245</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:28:53.573</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:28:54.260</ModifiedTimestamp>
+      <ColNames>CourseId</ColNames>
+      <RefTableId>2053582354</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Course</RefTableName>
+      <RefKeyName>PK__Course__C92D71A70B79BFED</RefKeyName>
+      <RefColNames>CourseId</RefColNames>
+    </foreign-key>
+    <column id="74" parent="26" name="CourseExperimentId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="26" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="76" parent="26" name="Deadline">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="77" parent="26" name="Purpose">
+      <Position>4</Position>
+      <DataType>nvarchar(500)|0</DataType>
+    </column>
+    <column id="78" parent="26" name="Steps">
+      <Position>5</Position>
+      <DataType>nvarchar(max)|0</DataType>
+    </column>
+    <column id="79" parent="26" name="References">
+      <Position>6</Position>
+      <DataType>nvarchar(max)|0</DataType>
+    </column>
+    <column id="80" parent="26" name="CourseId">
+      <Position>7</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="81" parent="26" name="IssuedTime">
+      <Position>8</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <index id="82" parent="26" name="PK__CourseEx__1836C5917DEEF74F">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CourseExperimentId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="83" parent="26" name="PK__CourseEx__1836C5917DEEF74F">
+      <ObjectId>242099903</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.07:28:21.680</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:28:21.680</ModifiedTimestamp>
+      <ColNames>CourseExperimentId</ColNames>
+      <UnderlyingIndexName>PK__CourseEx__1836C5917DEEF74F</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="84" parent="26" name="FK_CourseExperiment_Course">
+      <ObjectId>274100017</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:28:21.947</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:28:22.337</ModifiedTimestamp>
+      <ColNames>CourseId</ColNames>
+      <RefTableId>2053582354</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Course</RefTableName>
+      <RefKeyName>PK__Course__C92D71A70B79BFED</RefKeyName>
+      <RefColNames>CourseId</RefColNames>
+    </foreign-key>
+    <column id="85" parent="27" name="CourseHomeworkId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="86" parent="27" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="87" parent="27" name="IssuedTime">
+      <Position>3</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="88" parent="27" name="Deadline">
+      <Position>4</Position>
+      <DataType>datetime|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="89" parent="27" name="Content">
+      <Position>5</Position>
+      <DataType>nvarchar(max)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="90" parent="27" name="CourseId">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="91" parent="27" name="PK__CourseHo__5DE46CE26B50047B">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CourseHomeworkId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="92" parent="27" name="PK__CourseHo__5DE46CE26B50047B">
+      <ObjectId>674101442</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.07:34:25.197</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:34:25.197</ModifiedTimestamp>
+      <ColNames>CourseHomeworkId</ColNames>
+      <UnderlyingIndexName>PK__CourseHo__5DE46CE26B50047B</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="93" parent="27" name="FK_CourseHomework_Course">
+      <ObjectId>706101556</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:34:26.210</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:34:27.680</ModifiedTimestamp>
+      <ColNames>CourseId</ColNames>
+      <RefTableId>2053582354</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Course</RefTableName>
+      <RefKeyName>PK__Course__C92D71A70B79BFED</RefKeyName>
+      <RefColNames>CourseId</RefColNames>
+    </foreign-key>
+    <column id="94" parent="28" name="CourseSelectionId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="95" parent="28" name="CourseId">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="96" parent="28" name="StudentId">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="97" parent="28" name="PK__CourseSe__A530CC18D3945D71">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CourseSelectionId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="98" parent="28" name="PK__CourseSe__A530CC18D3945D71">
+      <ObjectId>766625774</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-19.01:38:54.950</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.01:38:54.950</ModifiedTimestamp>
+      <ColNames>CourseSelectionId</ColNames>
+      <UnderlyingIndexName>PK__CourseSe__A530CC18D3945D71</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="99" parent="28" name="CourseSelection_Course_CourseId_fk">
+      <ObjectId>782625831</ObjectId>
+      <CreatedTimestamp>2017-12-19.01:38:54.950</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.01:38:54.950</ModifiedTimestamp>
+      <ColNames>CourseId</ColNames>
+      <RefTableId>2053582354</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Course</RefTableName>
+      <RefKeyName>PK__Course__C92D71A70B79BFED</RefKeyName>
+      <RefColNames>CourseId</RefColNames>
+    </foreign-key>
+    <foreign-key id="100" parent="28" name="CourseSelection_Student_StudentId_fk">
+      <ObjectId>798625888</ObjectId>
+      <CreatedTimestamp>2017-12-19.01:38:54.950</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-19.01:38:54.950</ModifiedTimestamp>
+      <ColNames>StudentId</ColNames>
+      <RefTableId>2005582183</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Student</RefTableName>
+      <RefKeyName>PK__Student__32C52B992318173C</RefKeyName>
+      <RefColNames>StudentId</RefColNames>
+    </foreign-key>
+    <column id="101" parent="29" name="DepartmentId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="102" parent="29" name="ChinesaeName">
+      <Position>2</Position>
+      <DataType>nvarchar(30)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="103" parent="29" name="EnglishName">
+      <Position>3</Position>
+      <DataType>varchar(50)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="104" parent="29" name="Introduction">
+      <Position>4</Position>
+      <DataType>nvarchar(500)|0</DataType>
+    </column>
+    <column id="105" parent="29" name="Image">
+      <Position>5</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <index id="106" parent="29" name="PK__Departme__B2079BED16D05FBB">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DepartmentId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="107" parent="29" name="PK__Departme__B2079BED16D05FBB">
+      <ObjectId>1973582069</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.06:41:34.960</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:41:34.960</ModifiedTimestamp>
+      <ColNames>DepartmentId</ColNames>
+      <UnderlyingIndexName>PK__Departme__B2079BED16D05FBB</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="108" parent="30" name="ExperimentId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="109" parent="30" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="110" parent="30" name="Path">
+      <Position>3</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="111" parent="30" name="StudentId">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="30" name="Mark">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="113" parent="30" name="CourseExperimentId">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="114" parent="30" name="PK__Experime__7372232CF15701F9">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ExperimentId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="115" parent="30" name="PK__Experime__7372232CF15701F9">
+      <ObjectId>494624805</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-15.09:37:33.570</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:37:33.570</ModifiedTimestamp>
+      <ColNames>ExperimentId</ColNames>
+      <UnderlyingIndexName>PK__Experime__7372232CF15701F9</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="116" parent="30" name="FK_Experiment_Student">
+      <ObjectId>510624862</ObjectId>
+      <CreatedTimestamp>2017-12-15.09:37:33.570</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:37:33.570</ModifiedTimestamp>
+      <ColNames>StudentId</ColNames>
+      <RefTableId>2005582183</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Student</RefTableName>
+      <RefKeyName>PK__Student__32C52B992318173C</RefKeyName>
+      <RefColNames>StudentId</RefColNames>
+    </foreign-key>
+    <foreign-key id="117" parent="30" name="Experiment_CourseExperiment_CourseExperimentId_fk">
+      <ObjectId>526624919</ObjectId>
+      <CreatedTimestamp>2017-12-15.09:37:33.570</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:37:33.570</ModifiedTimestamp>
+      <ColNames>CourseExperimentId</ColNames>
+      <RefTableId>226099846</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>CourseExperiment</RefTableName>
+      <RefKeyName>PK__CourseEx__1836C5917DEEF74F</RefKeyName>
+      <RefColNames>CourseExperimentId</RefColNames>
+    </foreign-key>
+    <column id="118" parent="31" name="HomeworkId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="119" parent="31" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(50)|0</DataType>
+    </column>
+    <column id="120" parent="31" name="Path">
+      <Position>3</Position>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="121" parent="31" name="StudentId">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="122" parent="31" name="Mark">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="123" parent="31" name="CourseHomeworkId">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="124" parent="31" name="PK__Homework__5DE46CE2CD6FB6E5">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>HomeworkId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="125" parent="31" name="PK__Homework__5DE46CE2CD6FB6E5">
+      <ObjectId>1314103722</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.07:45:09.207</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:45:09.207</ModifiedTimestamp>
+      <ColNames>HomeworkId</ColNames>
+      <UnderlyingIndexName>PK__Homework__5DE46CE2CD6FB6E5</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="126" parent="31" name="FK_Homework_Student">
+      <ObjectId>1346103836</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:45:10.207</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:45:11.427</ModifiedTimestamp>
+      <ColNames>StudentId</ColNames>
+      <RefTableId>2005582183</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Student</RefTableName>
+      <RefKeyName>PK__Student__32C52B992318173C</RefKeyName>
+      <RefColNames>StudentId</RefColNames>
+    </foreign-key>
+    <foreign-key id="127" parent="31" name="Homework_CourseHomework_CourseHomeworkId_fk">
+      <ObjectId>430624577</ObjectId>
+      <CreatedTimestamp>2017-12-15.09:14:53.027</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:14:53.027</ModifiedTimestamp>
+      <ColNames>CourseHomeworkId</ColNames>
+      <RefTableId>658101385</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>CourseHomework</RefTableName>
+      <RefKeyName>PK__CourseHo__5DE46CE26B50047B</RefKeyName>
+      <RefColNames>CourseHomeworkId</RefColNames>
+    </foreign-key>
+    <column id="128" parent="32" name="StudentId">
+      <Position>1</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="129" parent="32" name="CourseId">
+      <Position>2</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="32" name="Mark">
+      <Position>3</Position>
+      <DataType>int|0</DataType>
+    </column>
+    <column id="131" parent="32" name="ScoreId">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="132" parent="32" name="Score_ScoreId_pk">
+      <Position>1</Position>
+      <ColNames>ScoreId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="133" parent="32" name="Score_ScoreId_pk">
+      <ObjectId>446624634</ObjectId>
+      <CreatedTimestamp>2017-12-15.09:16:18.040</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-15.09:16:18.040</ModifiedTimestamp>
+      <ColNames>ScoreId</ColNames>
+      <UnderlyingIndexName>Score_ScoreId_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="134" parent="32" name="FK_Score_Student">
+      <ObjectId>2133582639</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:07:04.560</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:07:05.167</ModifiedTimestamp>
+      <ColNames>StudentId</ColNames>
+      <RefTableId>2005582183</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Student</RefTableName>
+      <RefKeyName>PK__Student__32C52B992318173C</RefKeyName>
+      <RefColNames>StudentId</RefColNames>
+    </foreign-key>
+    <foreign-key id="135" parent="32" name="FK_Score_Course">
+      <ObjectId>2099048</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:07:04.713</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:07:05.167</ModifiedTimestamp>
+      <ColNames>CourseId</ColNames>
+      <RefTableId>2053582354</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Course</RefTableName>
+      <RefKeyName>PK__Course__C92D71A70B79BFED</RefKeyName>
+      <RefColNames>CourseId</RefColNames>
+    </foreign-key>
+    <column id="136" parent="33" name="StudentId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="137" parent="33" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="33" name="StudentNumber">
+      <Position>3</Position>
+      <DataType>char(10)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="139" parent="33" name="Grade">
+      <Position>4</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="140" parent="33" name="ClassId">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="141" parent="33" name="DepartmentId">
+      <Position>6</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="142" parent="33" name="Password">
+      <Position>7</Position>
+      <DataType>varchar(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="143" parent="33" name="PK__Student__32C52B992318173C">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>StudentId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="144" parent="33" name="PK__Student__32C52B992318173C">
+      <ObjectId>2021582240</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.06:55:54.470</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:55:54.470</ModifiedTimestamp>
+      <ColNames>StudentId</ColNames>
+      <UnderlyingIndexName>PK__Student__32C52B992318173C</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="145" parent="33" name="FK_Student_Class">
+      <ObjectId>2037582297</ObjectId>
+      <CreatedTimestamp>2017-12-12.06:55:54.643</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:55:55.720</ModifiedTimestamp>
+      <ColNames>ClassId</ColNames>
+      <RefTableId>1925581898</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Class</RefTableName>
+      <RefKeyName>PK__Class__CB1927C0A0C3B56F</RefKeyName>
+      <RefColNames>ClassId</RefColNames>
+    </foreign-key>
+    <foreign-key id="146" parent="33" name="FK_Student_Department">
+      <ObjectId>50099219</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:14:56.110</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:14:56.500</ModifiedTimestamp>
+      <ColNames>DepartmentId</ColNames>
+      <RefTableId>1957582012</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Department</RefTableName>
+      <RefKeyName>PK__Departme__B2079BED16D05FBB</RefKeyName>
+      <RefColNames>DepartmentId</RefColNames>
+    </foreign-key>
+    <column id="147" parent="34" name="TeacherId">
+      <Position>1</Position>
+      <SequenceIdentity>1</SequenceIdentity>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="148" parent="34" name="Name">
+      <Position>2</Position>
+      <DataType>nvarchar(20)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="149" parent="34" name="JobNumber">
+      <Position>3</Position>
+      <DataType>char(8)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="150" parent="34" name="Password">
+      <Position>4</Position>
+      <DataType>char(32)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="151" parent="34" name="DepartmentId">
+      <Position>5</Position>
+      <DataType>int|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="152" parent="34" name="Introduction">
+      <Position>6</Position>
+      <DataType>nvarchar(max)|0</DataType>
+    </column>
+    <column id="153" parent="34" name="Banned">
+      <Position>7</Position>
+      <DefaultExpression>0</DefaultExpression>
+      <DataType>bit|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="154" parent="34" name="HeadImage">
+      <Position>8</Position>
+      <DefaultExpression>&apos;head/default.jpg&apos;</DefaultExpression>
+      <DataType>nvarchar(100)|0</DataType>
+    </column>
+    <column id="155" parent="34" name="Title">
+      <Position>9</Position>
+      <DataType>nvarchar(40)|0</DataType>
+    </column>
+    <index id="156" parent="34" name="PK__Teacher__EDF25964F0E37338">
+      <Position>1</Position>
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>TeacherId</ColNames>
+      <Clustering>1</Clustering>
+      <Unique>1</Unique>
+    </index>
+    <key id="157" parent="34" name="PK__Teacher__EDF25964F0E37338">
+      <ObjectId>1893581784</ObjectId>
+      <NameSurrogate>1</NameSurrogate>
+      <CreatedTimestamp>2017-12-12.06:36:25.473</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.06:36:25.473</ModifiedTimestamp>
+      <ColNames>TeacherId</ColNames>
+      <UnderlyingIndexName>PK__Teacher__EDF25964F0E37338</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="158" parent="34" name="FK_Teacher_Department">
+      <ObjectId>82099333</ObjectId>
+      <CreatedTimestamp>2017-12-12.07:17:04.487</CreatedTimestamp>
+      <ModifiedTimestamp>2017-12-12.07:17:04.880</ModifiedTimestamp>
+      <ColNames>DepartmentId</ColNames>
+      <RefTableId>1957582012</RefTableId>
+      <RefSchemaName>dbo</RefSchemaName>
+      <RefTableName>Department</RefTableName>
+      <RefKeyName>PK__Departme__B2079BED16D05FBB</RefKeyName>
+      <RefColNames>DepartmentId</RefColNames>
+    </foreign-key>
+  </database-model>
+</dataSource>
